@@ -1,0 +1,10 @@
+require 'rubygems'
+require 'sinatra/base'
+require 'rack'
+require 'find'
+
+HOST       = 'http://foo.bar/'
+DATA_DIR   = File.expand_path(File.dirname(__FILE__)) << '/data/'
+ID         = 'your_gyazo_id'
+STR_LENGTH = 3
+
